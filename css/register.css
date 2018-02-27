@@ -196,6 +196,7 @@ div[data-step="3"] {
   justify-content: center;
   color: #fff;
   text-align: center;
+  display: none;
 }
 
 .final-step__title {

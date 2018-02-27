@@ -9,3 +9,7 @@ $('#step-2').click(function(){
   $('[data-step="3"]').show();
   $('#currentStep').text('3');
 })
+
+$('#step-3').click(function(){
+  $('.final-step').show();
+})
