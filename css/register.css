@@ -191,12 +191,15 @@ div[data-step="3"] {
   background: url(../images/bg.png) no-repeat center #0E2533;
   background-size: cover;
   z-index: 100;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   text-align: center;
   display: none;
+}
+
+.final-step.is-active {
+  display: flex;
 }
 
 .final-step__title {

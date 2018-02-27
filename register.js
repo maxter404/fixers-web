@@ -11,5 +11,5 @@ $('#step-2').click(function(){
 })
 
 $('#step-3').click(function(){
-  $('.final-step').show();
+  $('.final-step').addClass('is-active');
 })
