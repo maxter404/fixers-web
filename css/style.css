@@ -78,6 +78,11 @@ a {
   background: #0E2533;
 }
 
+.mainHeader .logo img,
+.mainFooter .logo img  {
+  width: 100px;
+}
+
 .mainHeader__nav a {
   color: #fff;
   font-size: 1em;
