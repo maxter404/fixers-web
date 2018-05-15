@@ -1,0 +1,221 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1E1C37;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.columns {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.btn.primary {
+  background: #2FABF7;
+  color: #fff;
+  font-weight: 500;
+  padding: 1em 3em;
+  border-radius: 0.4em;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  border: 0;
+  text-align: center;
+}
+
+.btn.primary:hover {
+  background: #60BCF5;
+  box-shadow: 0 2em 4em rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.btn.final {
+  background: #7ED321;
+  color: #fff;
+  font-weight: 500;
+  padding: 1em 3em;
+  border-radius: 0.4em;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+  border: 0;
+}
+
+.btn.final:hover {
+  background: #A9F05C;
+  box-shadow: 0 2em 4em rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+
+.brand {
+  background: url(../images/bg.png) no-repeat center #0E2533;
+  background-size: cover;
+  position: relative;
+}
+
+.brand__title {
+  color: #fff;
+  font-size: 5em;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  padding: 5%;
+  line-height: 1.4em;
+}
+
+.brand__footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  left: 5%;
+}
+
+.brand__footer-copy {
+  color: #fff;
+}
+
+.form {
+  overflow: scroll;
+}
+
+.form__subtitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.1em;
+}
+
+.form__subtitle span {
+  color: #F3C42B;
+}
+
+.form {
+  padding: 10px 5%;
+}
+
+.form__title {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 1rem 0;
+}
+
+.form__text {
+  opacity: 0.5;
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+
+.form__help {
+  font-size: 12px;
+  padding: 10px 0;
+  display: block;
+  opacity: 0.8;
+  padding-left: 1em;
+  border-left: 2px solid #EEEEEE;
+  margin-bottom: 10px;
+}
+
+.form fieldset {
+  padding-bottom: 1em;
+}
+
+.form fieldset label {
+  font-weight: 600;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.form fieldset input[type="email"],
+.form fieldset input[type="text"],
+.form fieldset input[type="password"]{
+  font-size: 1.2em;
+  border-radius: 4px;
+  padding: 0.9em;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 100%;
+  outline: 0;
+}
+
+.terms {
+  padding: 1em 0;
+}
+
+.terms  label {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.terms input {
+  margin-right: 1rem;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div[data-step="2"],
+div[data-step="3"] {
+  display: none;
+}
+
+.final-step {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../images/bg.png) no-repeat center #0E2533;
+  background-size: cover;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.final-step.is-active {
+  display: flex;
+}
+
+.final-step__title {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.final-step__text {
+  padding: 1em 0;
+  font-size: 1.5em;
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.final-step .btn {
+  width: 200px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fixit | Servicios a Domicilio</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Rubik:400,500,500i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+    <div class="final-step">
+      <div>
+        <h2 class="final-step__title">¡Gracias por registrarte!</h2>
+        <p class="final-step__text">El equipo de Fixit evaluará tu solicitud y te confirmaremos mediante llamada o correo electrónico tu aprobación.</p>
+        <p class="final-step__text">Si tienes alguna duda o inquietud contactanos</p>
+        <a class="btn primary" href="#">Contactar</a>
+      </div>
+    </div>
+    <main class="columns">
+      <div class="column form">
+        <h5 class="form__subtitle"><span id="currentStep">1</span> / 3 </h5>
+        <h3 class="form__title">Registro</h3>
+        <p class="form__text">Fixit te ayuda a conectarte con clientos de potenciales clientes de una manera más rapida.</p>
+        <div clazss="fields" data-step="1">
+          <fieldset>
+            <label>Nombre</label>
+            <input type="text" placeholder="Nombre">
+          </fieldset>
+          <fieldset>
+            <label>Apellido</label>
+            <input type="text" placeholder="Apellido">
+          </fieldset>
+          <fieldset>
+            <label>Email</label>
+            <input type="email" placeholder="Email">
+          </fieldset>
+          <fieldset>
+            <label>Teléfono</label>
+            <input type="text" placeholder="Teléfono">
+          </fieldset>
+          <fieldset>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Contraseña">
+          </fieldset>
+          <div class="terms">
+            <input type="checkbox" id="terms">
+            <label for="terms">Acepto los términos y condiciones</label>
+          </div>
+          <input class="btn primary" type="submit" value="Continuar" id="step-1">
+        </div>
+
+        <div clazss="fields" data-step="2">
+          <fieldset>
+            <label>Imágen de perfil</label>
+            <small class="form__help">Elige una fotografía para presentación con los clientes.Puedes modificarla en cualquier momento.</small>
+            <input type="file">
+          </fieldset>
+          <fieldset>
+            <label>Servicios</label>
+            <small class="form__help">Elige los servicios que puedes atender. Solamente puedes elegir 3 servicios pero puedes cambiarlos en cualquier momento. </small>
+            <input type="text" placeholder="Elige tus servicios">
+          </fieldset>
+          <fieldset>
+            <label>Áreas de Servicio</label>
+            <small class="form__help">Elige las zonas que puedes atender.Puedes cambiarlas en cualquier momento. </small>
+            <input type="text" placeholder="Elige tus áreas de servicio">
+          </fieldset>
+          <fieldset>
+            <label>Empresa</label>
+            <small class="form__help">Si te registras mediante una empresa buscala en la siguiente lista, si tu emporesa no se encuentra aquí <a href="#">Contáctanos</a></small>
+            <input type="text" placeholder="Empresas">
+          </fieldset>
+          <input class="btn primary" type="submit" value="Continuar" id="step-2">
+        </div>
+
+
+        <div clazss="fields" data-step="3">
+          <fieldset>
+            <label>Comprobante de Domicilio</label>
+            <small class="form__help">Sube una copia de un comprobante de domicilio</small>
+            <input type="file">
+          </fieldset>
+          <fieldset>
+            <label>Identificación Oficial</label>
+            <small class="form__help">Sube una copia de una identificación oficial</small>
+            <input type="file" placeholder="Elige tus servicios">
+          </fieldset>
+          <fieldset>
+            <label>Certificaciones</label>
+            <small class="form__help">Si tienes alguna certificación te sugerimos agregarlas</small>
+            <input type="text" placeholder="Nombre de la certificación">
+          </fieldset>
+          <input class="btn final" type="submit" value="Finalizar" id="step-3">
+        </div>
+
+
+      </div>
+      <div class="column brand">
+        <h2 class="brand__title">¿Haces reparaciones? Encuentra clientes más rápido.</h2>s
+        <footer class="brand__footer">
+          <img src="images/logo.png">
+          <span class="brand__footer-copy">FixIt © 2017 Todos los derechos reservados.</span>
+        </footer>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="register.js"></script>
+  </body>
+</html>
