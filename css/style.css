@@ -289,8 +289,11 @@ a {
   position: relative;
 }
 
-.steps__step h3 {
-  font-size: 2em;
+.steps__step h2 {
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .steps__step p {
@@ -309,6 +312,8 @@ a {
 .steps__step img {
   display: block;
   margin: 0 auto;
+  width: 6rem;
+  padding-bottom: 2rem;
 }
 
 .sep {
